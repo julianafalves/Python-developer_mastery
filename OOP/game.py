@@ -1,6 +1,7 @@
 class PlayerCharacter:
-    def __init__(self,name,age):
-        self.name = name
+    membership =  True #Class Object Attribute -> STATIC
+    def __init__(self,name,age): 
+        self.name = name #-> Dynamic
         self.age = age
     def run(self):
         print('RUN')
@@ -13,4 +14,6 @@ player2 = PlayerCharacter('Ana', 22)
 print(player1)
 print(player2) 
 
+#show all class information 
 help(player1)
+#help(list)
