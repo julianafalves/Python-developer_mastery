@@ -24,6 +24,13 @@ for index,value in enumerate(list(range(50,3,-2))):
     if index == 15:
         print('The value is: ',value)
 print('')
+#Keyarguments e default parameters
+#Docstring
+# *args and **kwargs
+#rule -> params, args, default params, kwargs
+
+#Walrus operator 
+#Global and Nonlocal keywords
 #How to do not skip a line when you are printing something
 print('----- string end != \\n -----')
 print('**** same line***** ',end='')
